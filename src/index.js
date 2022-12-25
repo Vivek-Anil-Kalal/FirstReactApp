@@ -6,8 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  // this code is jsx -> javascript syntax extension with this we can write the html and javascript in same code
+  <React.StrictMode>  {/* this is component inside React package  which provides errors */}
+    <App />     {/* this is App component whose code is written insider App.js */}
   </React.StrictMode>
 );
 
