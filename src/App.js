@@ -4,6 +4,7 @@ import React from 'react';
 
 function App() {
   return (
+    // hellos
     <React.Fragment>
       <p>{1+1}</p>  {/* JSX must return only single parent element*/}
       <div className="App">
